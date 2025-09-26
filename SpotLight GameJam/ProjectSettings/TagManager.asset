@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Lamp
+  - Dancer
+  - GameManager
+  - Spotlight
   layers:
   - Default
   - TransparentFX
