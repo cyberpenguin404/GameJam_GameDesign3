@@ -21,12 +21,12 @@ public class WalzDansers : Dancer, IDancerSynced
     {
     }
 
-    public override void ValueChanged(float previousValue, float newValue)
+    public override void HandleDancing(float previousValue, float newValue, float animationProgress)
     {
-        float circleX = Mathf.Sin(newValue * _circleSpeed) * _circleRadius;
-        float circleY = Mathf.Sin(newValue * _circleSpeed * 2) * _circleRadius / 2f;
+        float circleX = Mathf.Sin(animationProgress * 2 * Mathf.PI) * _circleRadius;
+        float circleY = Mathf.Sin(animationProgress * 2 * Mathf.PI * 2) * _circleRadius / 2f;
 
-        _dancerObject.transform.position = new Vector3(circleX, 1, circleY) + transform.position;
+        _dancerObject.transform.position = new Vector3(circleX, 0, circleY) + transform.position;
         _dancerObject.rotation = Quaternion.Euler(0, newValue * _dancerCircleSpeed, 0);
     }
 }

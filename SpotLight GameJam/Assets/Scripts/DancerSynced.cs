@@ -6,6 +6,8 @@ using UnityEngine;
 public class DancerSynced
 {
     public float AnimationValue { get; private set; }
+    public float AnimationDuration { get; private set; } = 4;
+    public float AnimationProgress { get { return AnimationValue /  AnimationDuration; } }
     public List<IDancerSynced> Observers { get; private set; } = new List<IDancerSynced>();
     public void UpdateAnimation(float frameDuration)
     {
@@ -13,7 +15,15 @@ public class DancerSynced
         AnimationValue += frameDuration;
         foreach (IDancerSynced observer in Observers)
         {
-            observer.ValueChanged(previousValue, AnimationValue);
+            observer.ValueChanged(previousValue, AnimationValue, AnimationProgress);
+        }
+        if (AnimationValue > AnimationDuration)
+        {
+            foreach (IDancerSynced observer in Observers)
+            {
+                observer.Changee();
+                AnimationValue = 0;
+            }
         }
     }
     public DancerSynced()
