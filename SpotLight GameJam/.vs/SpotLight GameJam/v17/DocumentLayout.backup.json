@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\",
+  "WorkspaceRootPath": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\daee\\2025-2026\\semester1\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\users\\pepij\\documents\\school\\gamedesign2\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\thirdpersoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,18 +25,26 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThirdPersonControl.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\ThirdPersonControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonControl.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\ThirdPersonControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ThirdPersonControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T15:11:43.908Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Spotlight.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spotlight.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spotlight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T14:56:14.38Z",
               "EditorCaption": ""
@@ -41,14 +53,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T14:50:31.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T14:50:31.69Z"
             }
           ]
         }
