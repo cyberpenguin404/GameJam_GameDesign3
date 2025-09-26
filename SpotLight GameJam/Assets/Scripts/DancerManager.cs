@@ -1,11 +1,15 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DancerManager : MonoBehaviour
 {
-    private DancerSynced _dancerSynced = new DancerSynced();
+    [SerializeField]
+    public List<Dancer> _dancerList = new List<Dancer>();
+    public DancerSynced _dancerSynced;
     private void Awake()
     {
-        foreach (IDancerSynced observer in transform.GetComponentsInChildren<IDancerSynced>())
+        _dancerSynced = new DancerSynced();
+        foreach (IDancerSynced observer in _dancerList)
         {
             _dancerSynced.AddObserver(observer);
         }

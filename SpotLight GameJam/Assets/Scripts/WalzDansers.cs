@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WalzDansers : Dancer
+public class WalzDansers : Dancer, IDancerSynced
 {
     public float IlluminationValue {  get; private set; }
     public float AnimationValue { get; private set; }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DancerSynced
 {
     public float AnimationValue { get; private set; }
-    public List<IDancerSynced> Observers { get; private set; }
+    public List<IDancerSynced> Observers { get; private set; } = new List<IDancerSynced>();
     public void UpdateAnimation(float frameDuration)
     {
         float previousValue = AnimationValue;
@@ -16,6 +16,10 @@ public class DancerSynced
             observer.ValueChanged(previousValue, AnimationValue);
         }
     }
+    public DancerSynced()
+    {
+    }
+
     public void ResetAnimation()
     {
         AnimationValue = 0;
