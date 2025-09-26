@@ -2,20 +2,25 @@ using UnityEngine;
 
 public class TriggerLight : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private GameManager _manager;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        GameObject Manager = GameObject.FindGameObjectWithTag("GameManager");
+        _manager = Manager.GetComponent<GameManager>();
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Dancer"))
+        {
+            _manager.IsOccupied = true;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Dancer"))
+        {
+            _manager.IsOccupied = false;
+        }
     }
 }
