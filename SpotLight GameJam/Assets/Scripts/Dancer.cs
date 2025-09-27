@@ -12,7 +12,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public ParticleSystem ShiningParticles;
     #endregion
     #region AnimationsAndDancing
-    private const float BPM = 60f;
+    private const float BPM = 120f;
     public readonly float SecondsPerBeat = 60f / BPM;
     public float AssignedStartBeat { get; set; }
     public float AssignedEndBeat { get; set; }

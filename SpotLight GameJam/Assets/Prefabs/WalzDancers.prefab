@@ -48,11 +48,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a192aeed6d52649b65e3edcc19c8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dancerMaterial: {fileID: 2100000, guid: 505b0e3d795af11449cab274c93aa130, type: 2}
+  _ClothesMaterial: {fileID: 2100000, guid: a95983d6d6ce93945b2a39fb420d7d9c, type: 2}
   _dancerRenderers:
-  - {fileID: 8938596638807972620}
-  - {fileID: 7244782268614846324}
+  - {fileID: 8701855622109503197}
   ShiningParticles: {fileID: 5863234612855382339}
+  DanceColor: {r: 0, g: 0, b: 0, a: 0}
   MoveTime: 3
   _illuminationModifier: 0
   IlluminationHP: 2
@@ -586,5 +586,10 @@ PrefabInstance:
 --- !u!4 &7532304778769819058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc1cd6de0fcce01498ddd1bff36f301f, type: 3}
+  m_PrefabInstance: {fileID: 7999138633253651033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8701855622109503197 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: cc1cd6de0fcce01498ddd1bff36f301f, type: 3}
   m_PrefabInstance: {fileID: 7999138633253651033}
   m_PrefabAsset: {fileID: 0}

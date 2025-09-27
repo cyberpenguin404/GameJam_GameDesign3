@@ -726,7 +726,7 @@ PrefabInstance:
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].Dancer
       value: 
-      objectReference: {fileID: 1346559224859959026, guid: b9bf235f10e4e0b47a440eda861a4224, type: 3}
+      objectReference: {fileID: 5208181039736127148, guid: 43165c80e20ce9c478ec033360b61ff4, type: 3}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[1].Dancer
       value: 
@@ -849,15 +849,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].DancerColor.b
-      value: 0.14150935
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].DancerColor.g
-      value: 0.31066683
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].DancerColor.r
-      value: 0.8490566
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].DanceTimings.x
@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].DanceTimings.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: Waves.Array.data[0].Guests.Array.data[0].IlluminationHP
