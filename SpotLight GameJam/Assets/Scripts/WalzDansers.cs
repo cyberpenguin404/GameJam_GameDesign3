@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class WalzDansers : Dancer, IDancerSynced
 {
-    public float IlluminationValue {  get; private set; }
     public float AnimationValue { get; private set; }
     [SerializeField]
     private Transform _dancerObject;
@@ -12,10 +11,6 @@ public class WalzDansers : Dancer, IDancerSynced
     private float _dancerCircleSpeed;
     [SerializeField]
     private float _circleRadius;
-    public override void OnIlluminated()
-    {
-        IlluminationValue += Time.deltaTime;
-    }
 
     public override void AnimationEnded()
     {

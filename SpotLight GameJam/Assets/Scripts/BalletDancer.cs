@@ -23,6 +23,7 @@ public class BalletDancer : Dancer
     public override void Changee()
     {
         base.Changee();
+        if (CurrentState == States.Dancing)
         StartCoroutine(ChangePose());
     }
 

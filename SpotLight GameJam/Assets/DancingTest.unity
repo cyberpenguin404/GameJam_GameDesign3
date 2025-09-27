@@ -332,6 +332,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1294701202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1294701203}
+  m_Layer: 0
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1294701203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294701202}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1514545357 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7460401607647524078, guid: ece428fcab48a4b46a4795a266f63176, type: 3}
@@ -868,12 +899,16 @@ PrefabInstance:
       value: DancerManager
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
+      propertyPath: _exit
+      value: 
+      objectReference: {fileID: 1294701203}
+    - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: _entrance
       value: 
       objectReference: {fileID: 146894379}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: DancerTypes.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821751232420805089, guid: eff9c8781d07af843bdace97989f6cec, type: 3}
       propertyPath: 'DancerTypes.Array.data[0]'
@@ -1041,5 +1076,6 @@ SceneRoots:
   - {fileID: 8451106933138805075}
   - {fileID: 2427725488787451325}
   - {fileID: 146894379}
+  - {fileID: 1294701203}
   - {fileID: 403067179}
   - {fileID: 806784639}
