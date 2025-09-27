@@ -8,7 +8,7 @@ public class DancerManager : MonoBehaviour
     private List<Dancer> _dancerList = new List<Dancer>();
 
     private int _startPositionIndex = 0;
-    [SerializeField] 
+    [SerializeField]
     private Transform _entrance;
     [SerializeField]
     private Transform _exit;
@@ -29,7 +29,17 @@ public class DancerManager : MonoBehaviour
 
     private void SpawnNextWave()
     {
-        if (_currentWaveIndex > _dancerList.Count)
+        //if (_currentWaveIndex > _dancerList.Count)
+        //{
+        //    Debug.Log("Finished all waves");
+        //    return;
+        //}
+        //foreach (Guest guest in Waves[_currentWaveIndex].Guests)
+        //{
+        //    SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y);
+        //    _currentWaveIndex++;
+        //}
+        if (_currentWaveIndex >= Waves.Count)
         {
             Debug.Log("Finished all waves");
             return;
@@ -37,8 +47,8 @@ public class DancerManager : MonoBehaviour
         foreach (Guest guest in Waves[_currentWaveIndex].Guests)
         {
             SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y);
-            _currentWaveIndex++;
         }
+        _currentWaveIndex++;
     }
 
     private void Update()
@@ -49,7 +59,7 @@ public class DancerManager : MonoBehaviour
             SpawnNextWave();
         }
     }
-    
+
     private void SpawnDancer(GameObject dancer, Vector3 startPosition, float illumantionHP, float startTime, float endTime)
     {
         GameObject newDancerObject = Instantiate(dancer, _entrance.position, Quaternion.identity);
