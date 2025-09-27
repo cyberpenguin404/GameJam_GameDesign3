@@ -1,8 +1,12 @@
+using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DancerManager : MonoBehaviour
 {
+    private float _currentWaveTime;
+    public TextMeshProUGUI _waveTimer;
     private int _currentWaveIndex;
     public List<Wave> Waves = new List<Wave>();
     private List<Dancer> _dancerList = new List<Dancer>();
@@ -44,6 +48,7 @@ public class DancerManager : MonoBehaviour
             Debug.Log("Finished all waves");
             return;
         }
+        _currentWaveTime = Waves[_currentWaveIndex].WaveTime;
         foreach (Guest guest in Waves[_currentWaveIndex].Guests)
         {
             SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y);
@@ -58,6 +63,17 @@ public class DancerManager : MonoBehaviour
         {
             SpawnNextWave();
         }
+        _currentWaveTime -= Time.deltaTime;
+        _waveTimer.text = $"{MathF.Floor(_currentWaveTime/60)} :{((int) _currentWaveTime%60)}";
+        if ( _currentWaveTime < 0 && _dancerList.Count > 0)
+        {
+            GameOver();
+        }
+    }
+
+    private void GameOver()
+    {
+        throw new NotImplementedException();
     }
 
     private void SpawnDancer(GameObject dancer, Vector3 startPosition, float illumantionHP, float startTime, float endTime)
@@ -86,5 +102,6 @@ public class Guest
 [System.Serializable]
 public class Wave
 {
+    public int WaveTime;
     public List<Guest> Guests;
 }

@@ -26,6 +26,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public Vector3 StartPosition { get; set; }
     public Vector3 ExitPosition { get; set; }
 
+    public int _illuminationModifier = 0;
     public float IlluminationValue { get; private set; }
     public float IlluminationHP;
     private void Awake()
@@ -53,29 +54,37 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public virtual void OnIlluminated()
     {
         IlluminationValue += Time.deltaTime;
-        Debug.Log($"{this.gameObject.name} is being Illuminated");
+        Debug.Log($"{this.gameObject.name} is being Illuminated with {_illuminationModifier} modifier");
+        if (_illuminationModifier >= 2)
+        {
+            foreach (Material material in _instanceMaterials)
+            {
+                material.SetColor("_EmissiveColor", Color.magenta * _maxEmission);
+            }
+        }
         if (IlluminationValue > IlluminationHP)
         {
             CurrentState = States.MoveToExit;
             _moveTimer = 0;
         }
-        foreach (Material material in _instanceMaterials)
-        {
-            float intensity = (IlluminationValue / IlluminationHP) * _maxEmission;
-            material.SetColor("_EmissiveColor", Color.white * intensity);
-        }
     }
     public void OnStartIlluminated()
     {
+        _illuminationModifier += 1;
         var emission = ShiningParticles.emission;
         emission.enabled = true;
     }
 
     public void OnEndIlluminated()
     {
+        _illuminationModifier -= 1;
         var emission = ShiningParticles.emission;
         if (ShiningParticles != null)
         emission.enabled = false;
+        foreach (Material material in _instanceMaterials)
+        {
+            material.SetColor("_EmissiveColor", Color.black);
+        }
     }
 
     public virtual void ValueChanged(float previousValue, float newValue)
