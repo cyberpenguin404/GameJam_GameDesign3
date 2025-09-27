@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31967 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31816 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/pepij/Documents/School/GameDesign2/GameJam_GameDesign3/SpotLight GameJam
+C:/DAEE/2025-2026/Semester1/GameJam_GameDesign3/SpotLight GameJam
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51246
+56411
 -job-worker-count
 11
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/pepij/Documents/School/GameDesign2/GameJam_GameDesign3/SpotLight GameJam
-C:/Users/pepij/Documents/School/GameDesign2/GameJam_GameDesign3/SpotLight GameJam
+Successfully changed project path to: C:/DAEE/2025-2026/Semester1/GameJam_GameDesign3/SpotLight GameJam
+C:/DAEE/2025-2026/Semester1/GameJam_GameDesign3/SpotLight GameJam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ C:/Users/pepij/Documents/School/GameDesign2/GameJam_GameDesign3/SpotLight GameJa
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11628]  Target information:
+Player connection [27716]  Target information:
 
-Player connection [11628]  * "[IP] 10.240.3.46 [Port] 0 [Flags] 2 [Guid] 3651104966 [EditorId] 3651104966 [Version] 1048832 [Id] WindowsEditor(7,TheCyberPengu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27716]  * "[IP] 172.30.24.6 [Port] 0 [Flags] 2 [Guid] 2115338164 [EditorId] 2115338164 [Version] 1048832 [Id] WindowsEditor(7,BT-7274) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11628] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27716] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,11 +76,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/pepij/Documents/School/GameDesign2/GameJam_GameDesign3/SpotLight GameJam/Assets
+[Subsystems] Discovering subsystems at path C:/DAEE/2025-2026/Semester1/GameJam_GameDesign3/SpotLight GameJam/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
@@ -88,48 +88,55 @@ Direct3D:
     Vendor:          NVIDIA
     VRAM:            7948 MB
     App VRAM Budget: 7180 MB
-    Driver:          32.0.15.8129
+    Driver:          32.0.15.6100
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002415 seconds.
-- Loaded All Assemblies, in  0.313 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003151 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 237 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.288 seconds
-Domain Reload Profiling: 600ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 842ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (108ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (289ms)
+	FinalizeReload (542ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (251ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			InitializePlatformSupportModulesInManaged (318ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,93 +145,151 @@ Domain Reload Profiling: 600ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.686 seconds
+- Loaded All Assemblies, in  0.561 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.752 seconds
-Domain Reload Profiling: 1434ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1279ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (471ms)
-		LoadAssemblies (292ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (198ms)
-				TypeCache.ScanAssembly (186ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (753ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (720ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (631ms)
+		SetupLoadedEditorAssemblies (615ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (249ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6766 unused Assets / (5.2 MB). Loaded Objects now: 7704.
-Memory consumption went from 259.9 MB to 254.7 MB.
-Total: 8.147300 ms (FindLiveObjects: 0.701100 ms CreateObjectMapping: 0.691800 ms MarkObjects: 4.454800 ms  DeleteObjects: 2.298800 ms)
+Unloading 460 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6766 unused Assets / (4.8 MB). Loaded Objects now: 7702.
+Memory consumption went from 260.8 MB to 256.0 MB.
+Total: 7.420800 ms (FindLiveObjects: 0.972900 ms CreateObjectMapping: 0.262400 ms MarkObjects: 4.095700 ms  DeleteObjects: 2.088300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67434.919287 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/package.json
-  artifactKey: Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/package.json using Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7975b5b55c327f13acbe6d25fd626920') in 0.1138146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 359399.162713 seconds.
+  path: Assets/Prefabs/SM_Ballerina.fbx
+  artifactKey: Guid(b1b0dfb648d4e3548bcd69b7bc15e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Ballerina.fbx using Guid(b1b0dfb648d4e3548bcd69b7bc15e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3abae58c4d6b9a8ff0eaee5920cdf9ac') in 2.6626181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.781622 seconds.
-  path: Assets/Shader
-  artifactKey: Guid(e9ba32434d8445b44b4148f622227473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader using Guid(e9ba32434d8445b44b4148f622227473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ad3fc6048662ca76b7b3b069dc9222') in 0.0005095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 18.888877 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6637d356adbbbb56387208eddb2c596') in 0.0482071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.771720 seconds.
-  path: Assets/Shader/ToonShaderPls.shader
-  artifactKey: Guid(9092f489d1636f54cb7885c419a37542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ToonShaderPls.shader using Guid(9092f489d1636f54cb7885c419a37542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d68369e2eec17d1b05a63df98b7f3ac') in 0.0026032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 9.683573 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed951a8cd338103795e54162dbc54fcb') in 0.0374763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
 ========================================================================
 Received Import Request.
-  Time since last request: 383.576296 seconds.
-  path: Assets/Shader/ToonShaderPls.shader
-  artifactKey: Guid(9092f489d1636f54cb7885c419a37542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ToonShaderPls.shader using Guid(9092f489d1636f54cb7885c419a37542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e95e962fb2d5f70f76fdfd4ef90b21b') in 0.0014859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 7.314088 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '821bb5d4bbca3b86a44c2f89d9986bde') in 0.0528893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.322045 seconds.
-  path: Assets/Shader/ToonShader.shadergraph
-  artifactKey: Guid(7c17933e36d8dff438588036f217df30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ToonShader.shadergraph using Guid(7c17933e36d8dff438588036f217df30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d2626bdfcd1568b7ec4a45fae1308f9') in 2.3966903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 4.288833 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98804517814278429cab382da71868e7') in 0.0899515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.271013 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdb195a617cfecc4bd5af04db78f65d1') in 0.0214644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.898917 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c0418f4d6493a6055be441ccef6df7') in 0.0372614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.400281 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc9b101f485381f9fe914e5bfea17dbd') in 0.0364249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.647873 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44db39551a4ec0e0591031f050ffceb1') in 0.0491647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.771065 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47036f1bc3a78575f852ab0e26714f6a') in 0.0328408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.111021 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a86fdc8a03f72aa1e8a33049ae18fde9') in 0.0455624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.680543 seconds.
+  path: Assets/Prefabs/Spotlight.prefab
+  artifactKey: Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spotlight.prefab using Guid(be0bced82efcd86498ee36291bd84db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5d5554326705cccbf607889a61b040c') in 0.0503939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
 ========================================================================
 Received Prepare
@@ -234,711 +299,897 @@ Leak Detected : Persistent allocates 8 individual allocations. To find out more 
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.556 seconds
-Domain Reload Profiling: 1174ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (241ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
+		DisableScriptedObjects (31ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (683ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.6 MB). Loaded Objects now: 7813.
+Memory consumption went from 252.5 MB to 247.0 MB.
+Total: 8.761700 ms (FindLiveObjects: 0.818100 ms CreateObjectMapping: 0.269800 ms MarkObjects: 4.975200 ms  DeleteObjects: 2.697100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 105.448160 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb454d13a2b1c6de7ac9471f75c35553') in 1.0517881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.614014 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8849d0eb71f3bd3aeaf7f99d043a85af') in 0.0450897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.373265 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f75e469f25fea48a7ecdec40879ea7d') in 0.0469475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.406523 seconds.
+  path: Assets/Prefabs/SM_Speaker.fbx
+  artifactKey: Guid(8e3c85be62de21c438c7ef6586345364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Speaker.fbx using Guid(8e3c85be62de21c438c7ef6586345364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b62e2171a309c27534ab6b86e54db73a') in 0.1042871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.968274 seconds.
+  path: Assets/Prefabs/SM_Waltz.fbx
+  artifactKey: Guid(9706a624f1ed5ab43bbf5ccb91365162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Waltz.fbx using Guid(9706a624f1ed5ab43bbf5ccb91365162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af6678a6b0d23f77e4477017ebbf2b2a') in 0.0775524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.041466 seconds.
+  path: Assets/Prefabs/SM_Ballerina.fbx
+  artifactKey: Guid(b1b0dfb648d4e3548bcd69b7bc15e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Ballerina.fbx using Guid(b1b0dfb648d4e3548bcd69b7bc15e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e1ceea30020c86f8e1568b5501dbd05') in 0.0578527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.109243 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '649ad9d76998ead10cfdd2c9e994ffed') in 0.0428059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371078 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a0a14c094b01dad63451199cc5cbd9d') in 0.063422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.478222 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213f099163fccf9ac4d9042cecf63ef4') in 0.0378987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.218502 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087accaf557fdae2a1d4ba2bb328cbec') in 0.063746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473520 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f38cb14252c0e51a4bd154e57fc19fc') in 0.039107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421037 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4f6d730549e262ef69242c23d59b18') in 0.0415257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.378447 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '895bf22dcbecdda81055beb1745b792f') in 0.03895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.950405 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bd53fec83afa9bf6a86994cc1680ec9') in 0.0571873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.693073 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f8cb831c98f35f5eb6015b29a5593c8') in 0.035524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.873639 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '350ce2ade4cf65efcd2066cb4dc8440a') in 0.043587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008659 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c7d0c9b7e18140f88a26478fbbc132') in 0.0411769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.594638 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5beba0745a6f32ae917b673c86dd55ca') in 0.0331611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.319576 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fef83e012b3ccac3157ec5b107286273') in 0.0375462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.607801 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18e3e773c4fbe6df1f6e0e298a6f3e64') in 0.0378638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.383592 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7327a46ecdf58e3d0b995d9adf786f4d') in 0.0240835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.557111 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b94d774601347914ae14cba5ba2e509') in 0.0387126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.997433 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05647eb50b3043dfd7faaf699609f2e5') in 0.0526717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.623 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (264ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (139ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (557ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (649ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (365ms)
+		SetupLoadedEditorAssemblies (438ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6765 unused Assets / (4.7 MB). Loaded Objects now: 7843.
-Memory consumption went from 252.1 MB to 247.4 MB.
-Total: 7.606700 ms (FindLiveObjects: 0.777500 ms CreateObjectMapping: 0.659100 ms MarkObjects: 4.161400 ms  DeleteObjects: 2.007400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 801.681674 seconds.
-  path: Assets/Sounds/Waltz of the Flowers  Tchaikovsky (No Copyright Music).mp3
-  artifactKey: Guid(d5bf359f644837045a19684131895b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Waltz of the Flowers  Tchaikovsky (No Copyright Music).mp3 using Guid(d5bf359f644837045a19684131895b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99f314c712cc2dc0aa9de8dc0d60e8f0') in 0.1513753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 929.039075 seconds.
-  path: Assets/Materials/Floor 1.mat
-  artifactKey: Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor 1.mat using Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbef07a8ac3b5a16a2ff941e03871924') in 1.0637367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 397.435145 seconds.
-  path: Assets/Shader/AdditiveColors.shader
-  artifactKey: Guid(a50108a7e9eddda4b8e14403ca319d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AdditiveColors.shader using Guid(a50108a7e9eddda4b8e14403ca319d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a46f8a7f9bea24cd00e3d8ba9b0a39') in 0.0022617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.985023 seconds.
-  path: Assets/Shader/AdditiveColors.shader
-  artifactKey: Guid(a50108a7e9eddda4b8e14403ca319d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AdditiveColors.shader using Guid(a50108a7e9eddda4b8e14403ca319d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1f21bf408abac194eac891370982460') in 0.0022683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  0.679 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.564 seconds
-Domain Reload Profiling: 1243ms
-	BeginReloadAssembly (230ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (286ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (159ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (564ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (374ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (231ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (301ms)
 			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6765 unused Assets / (5.1 MB). Loaded Objects now: 7914.
-Memory consumption went from 248.3 MB to 243.2 MB.
-Total: 9.527000 ms (FindLiveObjects: 0.872900 ms CreateObjectMapping: 0.675700 ms MarkObjects: 5.532000 ms  DeleteObjects: 2.445200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.640 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.583 seconds
-Domain Reload Profiling: 1221ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (583ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6764 unused Assets / (5.2 MB). Loaded Objects now: 7916.
-Memory consumption went from 257.8 MB to 252.6 MB.
-Total: 8.288400 ms (FindLiveObjects: 0.892200 ms CreateObjectMapping: 0.733300 ms MarkObjects: 4.184700 ms  DeleteObjects: 2.477200 ms)
+Unloading 6765 unused Assets / (4.7 MB). Loaded Objects now: 7884.
+Memory consumption went from 249.1 MB to 244.4 MB.
+Total: 7.348400 ms (FindLiveObjects: 0.877600 ms CreateObjectMapping: 0.266600 ms MarkObjects: 3.919500 ms  DeleteObjects: 2.283300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 317.518505 seconds.
-  path: Assets/Materials/Floor 1.mat
-  artifactKey: Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor 1.mat using Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bd41abb8f103080c4a3ff82fdee0655') in 1.4942871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 182.742696 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '044c614be173f0d2770acc90b6604ecb') in 0.9540269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.826142 seconds.
-  path: Assets/Materials/Floor 1.mat
-  artifactKey: Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor 1.mat using Guid(b40f619d1381ae84dbc8c60556dfd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab7e632a28ad38fff58caa27ac4548f2') in 0.0393704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 1.415429 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f44016fff738383d57eb1843776c2d2f') in 0.0414234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.297035 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cf80cb7bf6d6466b4a0ea122c155275') in 0.0415788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.248770 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b000803d69f69e120ba3b7e1dd44005b') in 0.0408595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.937538 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7635974b953c839e1561d3ef3188188f') in 0.0419098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.562721 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b556a69ec559e1cea8bdf37cf7334d2') in 0.035501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  0.679 seconds
+- Loaded All Assemblies, in  0.609 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.591 seconds
-Domain Reload Profiling: 1270ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
+		DisableScriptedObjects (31ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.4 MB). Loaded Objects now: 7953.
+Memory consumption went from 249.2 MB to 243.8 MB.
+Total: 11.596700 ms (FindLiveObjects: 1.123400 ms CreateObjectMapping: 0.730700 ms MarkObjects: 5.725900 ms  DeleteObjects: 4.014900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.276344 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a35d3a826b2ee7d8015cb87c1c6cc8d') in 1.0410171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.477428 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1cbe9cd807fde6da53ce4df385d274') in 0.0385274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.114013 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '445cc65cc4f4699c9a5cbce2135e4ae3') in 0.0470608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.950460 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b73fde9090de72ffc9d3e8d1977e22') in 0.0491461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.900104 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5647bc4e86929b3416140179ef474442') in 0.048626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.264113 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96f2db09b66a67d7b7875cf72109373d') in 0.0247483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.142861 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f0feb7fb1a64e5605b1a649abcc861e') in 0.0484049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418402 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d796bc86f674016657641232c21b93a') in 0.0405184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.725339 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0679f3be957c3ffb0024174b811e072a') in 0.0424667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.004155 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448766434c0cbd856f09a8ed0848a10b') in 0.0429329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812246 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '162adf9e39bb959751cae73b8e272196') in 0.0365795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.660 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (4.4 MB). Loaded Objects now: 8022.
+Memory consumption went from 249.3 MB to 244.9 MB.
+Total: 6.926800 ms (FindLiveObjects: 0.954500 ms CreateObjectMapping: 0.189700 ms MarkObjects: 4.095900 ms  DeleteObjects: 1.685500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.001317 seconds.
+  path: Assets/Materials/Dancer.mat
+  artifactKey: Guid(505b0e3d795af11449cab274c93aa130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Dancer.mat using Guid(505b0e3d795af11449cab274c93aa130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd548a1dad177828c91ce30713293d3ce') in 1.2040928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.799363 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe879b6d093045ab1bed0efdb335bfe') in 0.0687416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/SM_Ballerina.001.fbx
+  artifactKey: Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Ballerina.001.fbx using Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4e0f1a281fe926ceb98871f16d8e596') in 0.101364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.947922 seconds.
+  path: Assets/Prefabs/SM_Ballerina.001.fbx
+  artifactKey: Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_Ballerina.001.fbx using Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '592961ef91813df0c536ac5e80342457') in 0.05048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.169721 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '433ba7eeeb7792687d92b339d06e0dd4') in 0.0372703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.251850 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '657e858caf05b0c6aed71cd83720b540') in 0.0371909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.978965 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4826003e59c8fc2e07bb9e567ebc233') in 0.0424669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.430710 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8147151a7c67e5234097ccfca4e41af') in 0.0373118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506162 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e49a2637662a7c2e0a9a9281eed9917e') in 0.0224519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.361705 seconds.
+  path: Assets/Prefabs/SM_BallDress.fbx
+  artifactKey: Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_BallDress.fbx using Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7abc1199f37ef0902612cb780b9dc6dd') in 0.0537186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.710133 seconds.
+  path: Assets/Materials/M_skin.mat
+  artifactKey: Guid(9d13117f5122af7459d412601be2efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_skin.mat using Guid(9d13117f5122af7459d412601be2efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c86b9ae56bf47f8131c59a67799c1d') in 0.0429548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.149208 seconds.
+  path: Assets/Materials/M_Clothes.mat
+  artifactKey: Guid(a95983d6d6ce93945b2a39fb420d7d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Clothes.mat using Guid(a95983d6d6ce93945b2a39fb420d7d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bbddf8aeb8de4e23b7458e8fc168c79') in 0.1134957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.738524 seconds.
+  path: Assets/Prefabs/BalletDancer.prefab
+  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0086e727f442c2a79fc6a8f0f5bfc0f') in 0.0580644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/SM_WaltzClothes.fbx
+  artifactKey: Guid(cc1cd6de0fcce01498ddd1bff36f301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_WaltzClothes.fbx using Guid(cc1cd6de0fcce01498ddd1bff36f301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3503e8f0c9abfa510581ac7d7df7d207') in 0.0870945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.011777 seconds.
+  path: Assets/Prefabs/SM_BallClothes.fbx
+  artifactKey: Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_BallClothes.fbx using Guid(411f84e3b8f8f174e9d54e48de730684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944f66fb0515643f5df617c8ac6af041') in 0.0525321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.499458 seconds.
+  path: Assets/Prefabs/SM_WaltzClothes.fbx
+  artifactKey: Guid(cc1cd6de0fcce01498ddd1bff36f301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_WaltzClothes.fbx using Guid(cc1cd6de0fcce01498ddd1bff36f301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e98d7a9640bfdefd9554de0b80faeb') in 0.0473993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.706247 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b1962543c3db0f80976765031afc557') in 0.0375605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.559566 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdeba8610b24b95f6434aeb4adec0dcf') in 0.0429647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.400121 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28bd0fee0a8f783e8a5e1ac73ec5db1e') in 0.0438242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437598 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e39bd1310db488f9008a6f5b5668271') in 0.0421344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521620 seconds.
+  path: Assets/Prefabs/WalzDancers.prefab
+  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2484032105ebdb877c608bcecd8a5589') in 0.024783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.569697 seconds.
+  path: Assets/Prefabs/SM_SpeakClothes.fbx
+  artifactKey: Guid(1d4f9b8415b5f9a439c994bafc247f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_SpeakClothes.fbx using Guid(1d4f9b8415b5f9a439c994bafc247f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ebab836df2e6e8be89d882d556f5cc') in 0.0761759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d534597b2f0e8a794c22a903d7d3675') in 0.0717066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.783488 seconds.
+  path: Assets/Prefabs/SM_SpeakClothes.fbx
+  artifactKey: Guid(1d4f9b8415b5f9a439c994bafc247f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SM_SpeakClothes.fbx using Guid(1d4f9b8415b5f9a439c994bafc247f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe79e248c2a4d6b91f5e6645ce8a308') in 0.0513859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.873062 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c1ebb1ee61e953a3918a57a2a6328dd') in 0.0463024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.969919 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83509503713d9787d5ae331d3ede52d9') in 0.0411337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.119514 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb89050fbbed7fa0bb92b00a83a17c0') in 0.0415695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.518708 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e21e612fa9f45cfc7590072e6469c7') in 0.039715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355462 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '642fc6d54ac0f620614d9c3db3963b8d') in 0.0249092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.749752 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f2eb3ece1ebb42e9585a9e51e501054') in 0.0253295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.338067 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b558ff75ae29d1c2ed167cbdeb83fbec') in 0.0421923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919577 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9beb62181be488d7a795e02d2851455d') in 0.0370934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740598 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b68da08a26dcf4a200d62ae5117256') in 0.0373105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.342125 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5802ef9be055cb6c9843d411451915eb') in 0.0257664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.625 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.667 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (279ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (164ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (591ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (667ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
+		SetupLoadedEditorAssemblies (453ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6765 unused Assets / (4.8 MB). Loaded Objects now: 7985.
-Memory consumption went from 248.4 MB to 243.6 MB.
-Total: 7.007600 ms (FindLiveObjects: 0.748500 ms CreateObjectMapping: 0.271900 ms MarkObjects: 4.015900 ms  DeleteObjects: 1.970200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 60.992982 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd7983cbebbf594dc07f388c249c64f') in 0.9539024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18eb6a80d3312b81333a0dd57b526954') in 0.02809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.908699 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d24dbcd8b4fc1d1f647a8b695c5f60e') in 0.0195152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb588b3cfd74b43e7f3effea42b90d7') in 0.0596282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.910985 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c38b06097802e63e27954fee5c024a9') in 0.0197827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78521b66eace8595d791a341359a49df') in 0.0670115 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.290909 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72b3a367f57226f676ad7220ad72c04e') in 0.0232984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc70f575856ec4598d6c18682577fa3') in 0.0350174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.804581 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2176ad8a3ece22fdc3e85fa3ef65100') in 0.021325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbf723f7e974efcc40aaec2937cffb64') in 0.0368049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.194656 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3748cc6de7583def32c17b954bc9c2a7') in 0.0212623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f1b9d8338528f29a617809b655db15') in 0.0331933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.880607 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '077cdc3c08638785019f4e5aab72aeb8') in 0.0201532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f421958a5ea11a7294a4212d867b0a43') in 0.0555852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.992725 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10f7e6dbb94434e5cab7b049869d59f4') in 0.022423 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d2cd13199a44d5a75083def6d952b8') in 0.020665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.038643 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b737a80dee328ef1b6deba7ba380df80') in 0.116014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '832013acef89988db5d52d2da818d0b7') in 0.0740058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.491918 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474ae24d36a56ebcc7a3d942c62b8086') in 0.0543601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '004648d925134e676b72093328b57c67') in 0.1059981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.693644 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96280c787d0356d2425978d94e024ff9') in 0.0670751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75216461b8dfab56af9bed7195b1f28c') in 0.0845377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.521992 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '738744693abdaafd0954092827e24a4b') in 0.1029532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f69ceeb116a891e098bfc5f4d8dda0e7') in 0.059328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.132307 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bf84cd62aaf2b60336341cd97c2ca1c') in 0.0630561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '341e8c21013b78cb40b855701138e43a') in 0.2357253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.313984 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1674a647c34b40e7e0b39bbc7467cc54') in 0.0675926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bdafef9f42973ab5bee017520b56590') in 0.1225076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.619368 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daff04ac077b9a99d43e4a08b5791dcc') in 0.0670754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/WalzDancers.prefab
-  artifactKey: Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WalzDancers.prefab using Guid(ece428fcab48a4b46a4795a266f63176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71b9ac1d75403b60da80d8ad0b2715a1') in 0.0215879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.966472 seconds.
-  path: Assets/Prefabs/BalletDancer.prefab
-  artifactKey: Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BalletDancer.prefab using Guid(43165c80e20ce9c478ec033360b61ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c0c47cd138ffb8f2277cf610612c63') in 0.1673723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Speecher.prefab
-  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb873ccd3d0e3753f2e43943bddd7512') in 0.1418334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  0.733 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.622 seconds
-Domain Reload Profiling: 1354ms
-	BeginReloadAssembly (250ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (413ms)
-		LoadAssemblies (312ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (173ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (622ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6765 unused Assets / (5.0 MB). Loaded Objects now: 8057.
-Memory consumption went from 248.6 MB to 243.7 MB.
-Total: 8.703900 ms (FindLiveObjects: 0.815500 ms CreateObjectMapping: 0.673500 ms MarkObjects: 4.704100 ms  DeleteObjects: 2.509900 ms)
+Unloading 6765 unused Assets / (4.8 MB). Loaded Objects now: 8124.
+Memory consumption went from 251.7 MB to 246.9 MB.
+Total: 10.303200 ms (FindLiveObjects: 0.931200 ms CreateObjectMapping: 0.421200 ms MarkObjects: 6.062000 ms  DeleteObjects: 2.886700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.661 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.631 seconds
-Domain Reload Profiling: 1291ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (413ms)
-		LoadAssemblies (295ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (631ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6764 unused Assets / (5.1 MB). Loaded Objects now: 8059.
-Memory consumption went from 258.1 MB to 253.0 MB.
-Total: 8.797400 ms (FindLiveObjects: 1.011500 ms CreateObjectMapping: 0.756800 ms MarkObjects: 4.370800 ms  DeleteObjects: 2.657300 ms)
+Received Import Request.
+  Time since last request: 111.079386 seconds.
+  path: Assets/Prefabs/Speecher.prefab
+  artifactKey: Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speecher.prefab using Guid(b9bf235f10e4e0b47a440eda861a4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51db5e5d9e9c834376027a297fd82603') in 1.0736081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.690 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.638 seconds
-Domain Reload Profiling: 1328ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (436ms)
-		LoadAssemblies (314ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (186ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (638ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (428ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (260ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6764 unused Assets / (5.1 MB). Loaded Objects now: 8061.
-Memory consumption went from 267.9 MB to 262.8 MB.
-Total: 8.470500 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.793400 ms MarkObjects: 4.267700 ms  DeleteObjects: 2.569700 ms)
+Received Import Request.
+  Time since last request: 192.710657 seconds.
+  path: Assets/Menu.unity
+  artifactKey: Guid(5dab53359681b5248b4b9ac8f64c25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu.unity using Guid(5dab53359681b5248b4b9ac8f64c25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c16a43286b8e64511a054189186ba83') in 0.0007054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.682 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 1305ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (426ms)
-		LoadAssemblies (304ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (182ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (624ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (265ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6764 unused Assets / (4.8 MB). Loaded Objects now: 8063.
-Memory consumption went from 277.7 MB to 272.9 MB.
-Total: 8.011600 ms (FindLiveObjects: 0.845800 ms CreateObjectMapping: 0.659400 ms MarkObjects: 4.345200 ms  DeleteObjects: 2.160500 ms)
+Received Import Request.
+  Time since last request: 440.816397 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5daf3efd77a49fc94fd4e14d6fddfa4b') in 0.1781979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc0022601a97df0100d6165d064d1ce8') in 0.0691447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f1395e9702291ead6308af3ac3981b') in 0.0303968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
