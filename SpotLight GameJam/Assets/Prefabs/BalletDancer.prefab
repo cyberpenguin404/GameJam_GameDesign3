@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8755459219968481490}
   - component: {fileID: 8931199551200426964}
   - component: {fileID: 8036371134353427613}
+  - component: {fileID: -9007077580400652657}
   m_Layer: 0
   m_Name: BalletDancer
-  m_TagString: Untagged
+  m_TagString: Dancer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +124,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85340afc20597ea4585d80e9d484855f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveSpeed: 3
+  IlluminationHP: 2
   _poseChangeTime: 3.1415
   _poseChangeSpeed: 0.2
   _poseChangeRange: 3
   _rotationSpeed: 90
+--- !u!54 &-9007077580400652657
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208181039736127148}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

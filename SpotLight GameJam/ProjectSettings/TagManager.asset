@@ -8,6 +8,7 @@ TagManager:
   - Dancer
   - GameManager
   - Spotlight
+  - DancerManager
   layers:
   - Default
   - TransparentFX

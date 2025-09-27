@@ -37,6 +37,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public virtual void OnIlluminated()
     {
         IlluminationValue += Time.deltaTime;
+        Debug.Log($"{this.gameObject.name} is being Illuminated");
         if (IlluminationValue > IlluminationHP)
         {
             CurrentState = States.MoveToExit;
@@ -58,7 +59,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
             transform.position = Vector3.Lerp(transform.position, ExitPosition, _moveTimer / MoveTime);
             if (Vector3.Distance(ExitPosition, transform.position) < 0.1f)
             {
-                Destroy(gameObject);
+                RemoveDancer();
             }
         }
         if (StartPosition != Vector3.zero && CurrentState == States.MovingToStart)
@@ -74,6 +75,13 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
         {
             HandleDancing(previousValue, newValue, LocalProgress);
         }
+    }
+
+    private void RemoveDancer()
+    {
+        DancerManager dancerManager = GameObject.FindGameObjectWithTag("DancerManager").GetComponent<DancerManager>();
+        dancerManager.RemoveDancer(this);
+        Destroy(gameObject);
     }
 
     public abstract void HandleDancing(float previousValue, float newValue, float animationProgress);

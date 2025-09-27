@@ -15,6 +15,15 @@ public class DancerManager : MonoBehaviour
     [SerializeField]
     private Transform _exit;
     public DancerSynced _dancerSynced = new DancerSynced();
+    public void RemoveDancer(Dancer dancer)
+    {
+        if (_dancerList.Contains(dancer))
+        {
+            _dancerList.Remove(dancer);
+
+            _dancerSynced.RemoveObserver(dancer);
+        }
+    }
     private void Awake()
     {
         SpawnNextWave();
@@ -22,6 +31,11 @@ public class DancerManager : MonoBehaviour
 
     private void SpawnNextWave()
     {
+        if (_currentWaveIndex > _dancerList.Count)
+        {
+            Debug.Log("Finished all waves");
+            return;
+        }
         foreach (Guest guest in Waves[_currentWaveIndex].Guests)
         {
             SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y);

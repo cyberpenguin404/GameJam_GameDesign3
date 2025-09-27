@@ -32,10 +32,6 @@ public class BalletDancer : Dancer
         transform.rotation *= Quaternion.Euler(0, (newValue - previousValue) * _rotationSpeed, 0);
     }
 
-    public override void OnIlluminated()
-    {
-    }
-
     private IEnumerator ChangePose()
     {
         while (true)
@@ -61,6 +57,10 @@ public class BalletDancer : Dancer
                 _timeSinceLastPoseChange = 0;
                 _lerpTimer = 0;
                 _targetPosition = Vector3.zero;
+                break;
+            }
+            if (CurrentState != States.Dancing)
+            {
                 break;
             }
             yield return new WaitForEndOfFrame();

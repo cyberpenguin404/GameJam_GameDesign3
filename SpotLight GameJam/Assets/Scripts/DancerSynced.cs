@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DancerSynced
@@ -13,7 +14,7 @@ public class DancerSynced
     {
         float previousValue = AnimationValue;
         AnimationValue += frameDuration;
-        foreach (IDancerSynced observer in Observers)
+        foreach (IDancerSynced observer in Observers.ToList())
         {
             observer.ValueChanged(previousValue, AnimationValue);
         }
