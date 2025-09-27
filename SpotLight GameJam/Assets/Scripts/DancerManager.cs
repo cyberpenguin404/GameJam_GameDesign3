@@ -7,8 +7,6 @@ public class DancerManager : MonoBehaviour
     public List<Wave> Waves = new List<Wave>();
     private List<Dancer> _dancerList = new List<Dancer>();
 
-    public List<GameObject> DancerTypes = new List<GameObject>();
-    public List<Transform> StartPositions = new List<Transform>();
     private int _startPositionIndex = 0;
     [SerializeField] 
     private Transform _entrance;

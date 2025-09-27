@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5821751232420805089}
   m_Layer: 0
   m_Name: DancerManager
-  m_TagString: Untagged
+  m_TagString: DancerManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,6 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b25f69ba6fe384c91c3ad8e0ea8cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dancerList:
-  - {fileID: 0}
-  - {fileID: 0}
+  Waves:
+  - Guests:
+    - Dancer: {fileID: 5208181039736127148, guid: 43165c80e20ce9c478ec033360b61ff4, type: 3}
+      DanceTimings: {x: 1, y: 3}
+      StartPosition: {x: 0, y: 1, z: 0}
+      IlluminationHP: 5
+  _entrance: {fileID: 0}
+  _exit: {fileID: 0}

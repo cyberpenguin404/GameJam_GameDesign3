@@ -1,8 +1,16 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 {
+    #region Appearance
+    [SerializeField] private Material _dancerMaterial;
+    [SerializeField] private List<Renderer> _dancerRenderers = new List<Renderer>();
+    internal List<Material> _instanceMaterials = new List<Material>();
+    private float _maxEmission = 10;
+    #endregion
+    public ParticleSystem ShiningParticles;
     public float AssignedStartTime {  get; set; }
     public float AssignedEndTime { get; set; }
     private float DanceDuration { get {  return AssignedEndTime - AssignedStartTime; } }
@@ -22,7 +30,15 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public float IlluminationHP;
     private void Awake()
     {
-        _currentCycle = Cycles;
+        _currentCycle = Cycles; 
+        foreach (Renderer renderer in _dancerRenderers)
+        {
+            _instanceMaterials.Add(renderer.material);
+            renderer.material.SetFloat("_EmissiveIntensity", 0);
+        }
+
+        var emission = ShiningParticles.emission;
+        emission.enabled = false;
     }
     public abstract void AnimationEnded();
 
@@ -43,6 +59,23 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
             CurrentState = States.MoveToExit;
             _moveTimer = 0;
         }
+        foreach (Material material in _instanceMaterials)
+        {
+            float intensity = (IlluminationValue / IlluminationHP) * _maxEmission;
+            material.SetColor("_EmissiveColor", Color.white * intensity);
+        }
+    }
+    public void OnStartIlluminated()
+    {
+        var emission = ShiningParticles.emission;
+        emission.enabled = true;
+    }
+
+    public void OnEndIlluminated()
+    {
+        var emission = ShiningParticles.emission;
+        if (ShiningParticles != null)
+        emission.enabled = false;
     }
 
     public virtual void ValueChanged(float previousValue, float newValue)
@@ -85,6 +118,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     }
 
     public abstract void HandleDancing(float previousValue, float newValue, float animationProgress);
+
 }
 
 public enum States

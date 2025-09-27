@@ -31,7 +31,7 @@ public class PlayerScript : MonoBehaviour
         {
             _currentlyControllingSpotlight = false;
         }
-        _currentlySelectedSpotlight.MoveSpotlight();
+        //_currentlySelectedSpotlight.MoveSpotlight();
     }
 
     private void HandleMovement()

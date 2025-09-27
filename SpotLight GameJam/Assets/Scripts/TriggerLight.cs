@@ -17,6 +17,10 @@ public class TriggerLight : MonoBehaviour
         {
             this.GetComponent<Light>().color = Color.Lerp(_orgininalColor, other.GetComponent<Light>().color, .5f);
         }
+        if (other.CompareTag("Dancer"))
+        {
+            other.GetComponent<Dancer>().OnStartIlluminated();
+        }
     }
     private void OnTriggerStay(Collider other)
     {
@@ -30,6 +34,10 @@ public class TriggerLight : MonoBehaviour
         if (other.CompareTag("Spotlight"))
         {
             this.GetComponent<Light>().color = _orgininalColor;
+        }
+        if (other.CompareTag("Dancer"))
+        {
+            other.GetComponent<Dancer>().OnEndIlluminated();
         }
     }
 }
