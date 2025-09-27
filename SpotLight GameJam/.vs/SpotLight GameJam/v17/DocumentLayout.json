@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\users\\pepij\\documents\\school\\gamedesign2\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,7 +105,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dancer.cs",
               "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Dancer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dancer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAkwH4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T07:07:48.016Z",
               "EditorCaption": ""
@@ -120,12 +120,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Speecher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T11:47:27.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T11:47:27.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DancerManager.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DancerManager.cs",
@@ -133,8 +132,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DancerManager.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAkwBkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T07:20:58.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T07:20:58.686Z"
             },
             {
               "$type": "Document",
@@ -146,8 +144,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:39:08.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T09:39:08.016Z"
             },
             {
               "$type": "Document",
@@ -159,18 +156,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Spotlight.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:33:18.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T09:33:18.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TriggerLight.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerLight.cs",
               "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerLight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T09:26:07.405Z",
               "EditorCaption": ""
@@ -185,8 +181,7 @@
               "RelativeToolTip": "Assets\\Scripts\\IIluminatable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:25:03.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T09:25:03.752Z"
             },
             {
               "$type": "Document",
@@ -198,8 +193,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DancerSynced.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T07:17:09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T07:17:09Z"
             },
             {
               "$type": "Document",

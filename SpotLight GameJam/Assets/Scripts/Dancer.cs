@@ -41,7 +41,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
         foreach (Renderer renderer in _dancerRenderers)
         {
             _instanceMaterials.Add(renderer.material);
-            renderer.material.SetFloat("_EmissiveIntensity", 0);
+            renderer.material.SetColor("_EmissiveColor", DanceColor * 0.5f);
             renderer.material.color = DanceColor;
         }
 
@@ -61,6 +61,10 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 
     public virtual void OnIlluminated(Color color)
     {
+        if (DanceColor == Color.magenta && _illuminationModifier >=2)
+        {
+            ApplyLight();
+        }
         if (DanceColor == Color.white)
         {
             ApplyLight();
@@ -92,12 +96,17 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 
     public void OnStartIlluminated(Color color)
     {
-        _illuminationModifier += 1;
+        _illuminationModifier += 1; 
+        if (DanceColor == Color.magenta && _illuminationModifier >= 2)
+        {
+            StartIlluminating();
+        }
         if (DanceColor == Color.white)
         {
             StartIlluminating();
             return;
         }
+        Debug.Log($"{color} is {color == DanceColor} equal to {DanceColor}");
         if (color == DanceColor)
         {
             StartIlluminating();
@@ -115,10 +124,10 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
         _illuminationModifier -= 1;
         foreach (Material material in _instanceMaterials)
         {
-            material.SetColor("_EmissiveColor", Color.black);
+            material.SetColor("_EmissiveColor", DanceColor * 0.5f);
         }
 
-        if (_illuminationModifier == 0)
+        if (_illuminationModifier == 0 || DanceColor == Color.magenta)
         {
             var emission = ShiningParticles.emission;
             if (ShiningParticles != null)
