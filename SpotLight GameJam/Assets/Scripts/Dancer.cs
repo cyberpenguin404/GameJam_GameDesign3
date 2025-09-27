@@ -5,19 +5,25 @@ using UnityEngine;
 public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 {
     #region Appearance
-    [SerializeField] private Material _dancerMaterial;
+    [SerializeField] private Material _ClothesMaterial;
     [SerializeField] private List<Renderer> _dancerRenderers = new List<Renderer>();
     internal List<Material> _instanceMaterials = new List<Material>();
     private float _maxEmission = 10;
-    #endregion
     public ParticleSystem ShiningParticles;
-    public float AssignedStartTime {  get; set; }
-    public float AssignedEndTime { get; set; }
-    private float DanceDuration { get {  return AssignedEndTime - AssignedStartTime; } }
+    #endregion
+    #region AnimationsAndDancing
+    private const float BPM = 60f;
+    public readonly float SecondsPerBeat = 60f / BPM;
+    public float AssignedStartBeat { get; set; }
+    public float AssignedEndBeat { get; set; }
+    private float DanceDuration { get { return AssignedEndBeat - AssignedStartBeat; } }
     public float AnimationValue { get; private set; }
+    public float AnimationValueBeats { get { return AnimationValue / SecondsPerBeat; } }
     private int _currentCycle;
-    private int Cycles { get { return Mathf.FloorToInt((AnimationValue - AssignedStartTime) / DanceDuration); } }
-    private float LocalProgress { get { return ((AnimationValue - AssignedStartTime) % DanceDuration) / DanceDuration; } }
+    private int Cycles { get { return Mathf.FloorToInt((AnimationValueBeats - AssignedStartBeat) / DanceDuration); } }
+    private float LocalProgress { get { return ((AnimationValueBeats - AssignedStartBeat) % DanceDuration) / DanceDuration; } }
+    #endregion
+    public Color DanceColor;
     public States CurrentState { get; internal set; } = States.MovingToStart;
 
     private float _moveTimer;
@@ -29,13 +35,14 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public int _illuminationModifier = 0;
     public float IlluminationValue { get; private set; }
     public float IlluminationHP;
-    private void Awake()
+    public void Initiate()
     {
-        _currentCycle = Cycles; 
+        _currentCycle = Cycles;
         foreach (Renderer renderer in _dancerRenderers)
         {
             _instanceMaterials.Add(renderer.material);
             renderer.material.SetFloat("_EmissiveIntensity", 0);
+            renderer.material.color = DanceColor;
         }
 
         var emission = ShiningParticles.emission;
@@ -45,17 +52,31 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 
     public virtual void Changee()
     {
+        Debug.Log("Changee called");
         if (CurrentState == States.WaitingToDance)
         {
             CurrentState = States.Dancing;
         }
     }
 
-    public virtual void OnIlluminated()
+    public virtual void OnIlluminated(Color color)
+    {
+        if (DanceColor == Color.white)
+        {
+            ApplyLight();
+            return;
+        }
+        if (color == DanceColor)
+        {
+            ApplyLight();
+        }
+    }
+
+    private void ApplyLight()
     {
         IlluminationValue += Time.deltaTime;
         Debug.Log($"{this.gameObject.name} is being Illuminated with {_illuminationModifier} modifier");
-        if (_illuminationModifier >= 2)
+        if (_illuminationModifier >= 2 && (DanceColor == Color.white || DanceColor == Color.magenta))
         {
             foreach (Material material in _instanceMaterials)
             {
@@ -68,22 +89,40 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
             _moveTimer = 0;
         }
     }
-    public void OnStartIlluminated()
+
+    public void OnStartIlluminated(Color color)
     {
         _illuminationModifier += 1;
+        if (DanceColor == Color.white)
+        {
+            StartIlluminating();
+            return;
+        }
+        if (color == DanceColor)
+        {
+            StartIlluminating();
+        }
+    }
+
+    private void StartIlluminating()
+    {
         var emission = ShiningParticles.emission;
         emission.enabled = true;
     }
 
-    public void OnEndIlluminated()
+    public void OnEndIlluminated(Color color)
     {
         _illuminationModifier -= 1;
-        var emission = ShiningParticles.emission;
-        if (ShiningParticles != null)
-        emission.enabled = false;
         foreach (Material material in _instanceMaterials)
         {
             material.SetColor("_EmissiveColor", Color.black);
+        }
+
+        if (_illuminationModifier == 0)
+        {
+            var emission = ShiningParticles.emission;
+            if (ShiningParticles != null)
+                emission.enabled = false;
         }
     }
 

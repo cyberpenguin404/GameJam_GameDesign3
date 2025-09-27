@@ -3,13 +3,12 @@ using UnityEngine;
 public class TriggerLight : MonoBehaviour
 {
     private GameManager _manager;
-    private Color _orgininalColor;
+    public Color _Color;
 
 
     private void Start()
     {
         GameObject Manager = GameObject.FindGameObjectWithTag("GameManager");
-        _orgininalColor = this.GetComponent<Light>().color;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -19,14 +18,14 @@ public class TriggerLight : MonoBehaviour
         //}
         if (other.CompareTag("Dancer"))
         {
-            other.GetComponent<Dancer>().OnStartIlluminated();
+            other.GetComponent<Dancer>().OnStartIlluminated(_Color);
         }
     }
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Dancer"))
         {
-            other.GetComponent<Dancer>().OnIlluminated();
+            other.GetComponent<Dancer>().OnIlluminated(_Color);
         }
     }
     private void OnTriggerExit(Collider other)
@@ -37,7 +36,7 @@ public class TriggerLight : MonoBehaviour
         //}
         if (other.CompareTag("Dancer"))
         {
-            other.GetComponent<Dancer>().OnEndIlluminated();
+            other.GetComponent<Dancer>().OnEndIlluminated(_Color);
         }
     }
 }

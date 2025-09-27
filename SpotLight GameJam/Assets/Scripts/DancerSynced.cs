@@ -7,8 +7,6 @@ using UnityEngine;
 public class DancerSynced
 {
     public float AnimationValue { get; private set; }
-    public float AnimationDuration { get; private set; }
-    public float AnimationProgress { get { return AnimationValue /  AnimationDuration; } }
     public List<IDancerSynced> Observers { get; private set; } = new List<IDancerSynced>();
     public void UpdateAnimation(float frameDuration)
     {
