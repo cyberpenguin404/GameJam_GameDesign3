@@ -51,7 +51,8 @@ public class DancerManager : MonoBehaviour
         _currentWaveTime = Waves[_currentWaveIndex].WaveTime;
         foreach (Guest guest in Waves[_currentWaveIndex].Guests)
         {
-            SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y, guest.DancerColor);
+            SpawnDancer(guest.Dancer, guest.StartPosition, guest.IlluminationHP, guest.DanceTimings.x, guest.DanceTimings.y, 
+                guest.DancerColor, guest.SecondaryDancerColor);
         }
         _currentWaveIndex++;
     }
@@ -76,7 +77,7 @@ public class DancerManager : MonoBehaviour
         throw new NotImplementedException();
     }
 
-    private void SpawnDancer(GameObject dancer, Vector3 startPosition, float illumantionHP, float startTime, float endTime, Color dancerColor)
+    private void SpawnDancer(GameObject dancer, Vector3 startPosition, float illumantionHP, float startTime, float endTime, Color dancerColor, Color secondaryDancerColor)
     {
         GameObject newDancerObject = Instantiate(dancer, _entrance.position, Quaternion.identity);
         Dancer newDancer = newDancerObject.GetComponent<Dancer>();
@@ -87,6 +88,11 @@ public class DancerManager : MonoBehaviour
         newDancer.AssignedStartBeat = startTime;
         newDancer.AssignedEndBeat = endTime;
         newDancer.IlluminationHP = illumantionHP;
+
+        if (newDancer is TangoDancer tangoDancer)
+        {
+            tangoDancer.SecondaryColor = secondaryDancerColor;
+        }
 
         newDancer.Initiate();
 
@@ -99,6 +105,7 @@ public class Guest
 {
     public GameObject Dancer;
     public Color DancerColor;
+    public Color SecondaryDancerColor;
     public Vector2 DanceTimings;
     public Vector3 StartPosition;
     public int IlluminationHP;

@@ -35,7 +35,7 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
     public int _illuminationModifier = 0;
     public float IlluminationValue { get; private set; }
     public float IlluminationHP;
-    public void Initiate()
+    public virtual void Initiate()
     {
         _currentCycle = Cycles;
         foreach (Renderer renderer in _dancerRenderers)
@@ -52,7 +52,6 @@ public abstract class Dancer : MonoBehaviour, IIluminatable, IDancerSynced
 
     public virtual void Changee()
     {
-        Debug.Log("Changee called");
         if (CurrentState == States.WaitingToDance)
         {
             CurrentState = States.Dancing;
