@@ -11,8 +11,17 @@
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\walzdansers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\walzdansers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,7 +77,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 3,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,6 +89,22 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 14,
+              "Title": "GhostScript.cs",
+              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
+              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
+              "RelativeToolTip": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T09:51:01.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 13,
               "Title": "GhostScript.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
@@ -138,7 +167,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
@@ -151,7 +184,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Spotlight.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spotlight.cs",
@@ -177,7 +214,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "IIluminatable.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IIluminatable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IIluminatable.cs",
@@ -215,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
@@ -227,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BalletDancer.cs",
               "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\BalletDancer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BalletDancer.cs",
@@ -260,6 +301,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T07:17:03.645Z"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DancerSynced.cs",
+              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DancerSynced.cs",
+              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DancerSynced.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T07:17:09Z"
+>>>>>>> Stashed changes
             }
           ]
         }
