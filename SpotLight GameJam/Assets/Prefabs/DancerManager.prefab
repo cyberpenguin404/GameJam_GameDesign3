@@ -44,11 +44,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b25f69ba6fe384c91c3ad8e0ea8cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _waveTimer: {fileID: 0}
   Waves:
-  - Guests:
+  - WaveTime: 30
+    Guests:
+    - Dancer: {fileID: 1346559224859959026, guid: b9bf235f10e4e0b47a440eda861a4224, type: 3}
+      DancerColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryDancerColor: {r: 0.29203746, g: 0.32405713, b: 0.8679245, a: 1}
+      DanceTimings: {x: 0, y: 4}
+      StartPosition: {x: 0, y: 1, z: -4}
+      IlluminationHP: 20
+  - WaveTime: 30
+    Guests:
     - Dancer: {fileID: 5208181039736127148, guid: 43165c80e20ce9c478ec033360b61ff4, type: 3}
-      DanceTimings: {x: 1, y: 3}
+      DancerColor: {r: 0.29203746, g: 0.32405713, b: 0.8679245, a: 1}
+      SecondaryDancerColor: {r: 0, g: 0, b: 0, a: 0}
+      DanceTimings: {x: 0, y: 1}
+      StartPosition: {x: 8, y: 1, z: 5}
+      IlluminationHP: 10
+    - Dancer: {fileID: 5208181039736127148, guid: 43165c80e20ce9c478ec033360b61ff4, type: 3}
+      DancerColor: {r: 1, g: 0, b: 1, a: 1}
+      SecondaryDancerColor: {r: 0, g: 0, b: 0, a: 0}
+      DanceTimings: {x: 1, y: 4}
+      StartPosition: {x: 0, y: 1, z: 5}
+      IlluminationHP: 10
+    - Dancer: {fileID: 5208181039736127148, guid: 43165c80e20ce9c478ec033360b61ff4, type: 3}
+      DancerColor: {r: 0.8490566, g: 0.31066683, b: 0.14150935, a: 1}
+      SecondaryDancerColor: {r: 0, g: 0, b: 0, a: 0}
+      DanceTimings: {x: 1, y: 4}
+      StartPosition: {x: -8, y: 1, z: 5}
+      IlluminationHP: 10
+  - WaveTime: 15
+    Guests:
+    - Dancer: {fileID: 6226065263918117926, guid: 848389f3f9cce9749b7f9b47172e5f71, type: 3}
+      DancerColor: {r: 0.8490566, g: 0.31066683, b: 0.14150935, a: 1}
+      SecondaryDancerColor: {r: 0.29203746, g: 0.32405713, b: 0.8679245, a: 1}
+      DanceTimings: {x: 0, y: 2}
       StartPosition: {x: 0, y: 1, z: 0}
-      IlluminationHP: 5
+      IlluminationHP: 20
+  - WaveTime: 40
+    Guests:
+    - Dancer: {fileID: 168918323260954787, guid: ece428fcab48a4b46a4795a266f63176, type: 3}
+      DancerColor: {r: 1, g: 0, b: 1, a: 1}
+      SecondaryDancerColor: {r: 0, g: 0, b: 0, a: 0}
+      DanceTimings: {x: 1, y: 6}
+      StartPosition: {x: 7, y: 1, z: 3}
+      IlluminationHP: 20
   _entrance: {fileID: 0}
   _exit: {fileID: 0}
