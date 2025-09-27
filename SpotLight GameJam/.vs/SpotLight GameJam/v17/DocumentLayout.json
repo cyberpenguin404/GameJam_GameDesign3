@@ -1,64 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\",
+  "WorkspaceRootPath": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\balletdancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\daee\\2025-2026\\semester1\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\balletdancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\balletdancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\users\\pepij\\documents\\school\\gamedesign2\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|c:\\daee\\2025-2026\\semester1\\gamejam_gamedesign3\\spotlight gamejam\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\iiluminatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\iiluminatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iiluminatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Shader\\ToonShaderPls.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\ToonShaderPls.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\walzdansers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spotlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\dancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speecher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\walzdansers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\walzdansers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\idancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\assets\\scripts\\idancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45D582E-0C23-AB9F-34CA-1288F9EF9975}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idancersynced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,51 +62,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GhostScript.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "RelativeToolTip": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAE8AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T15:11:04.637Z"
+              "WhenOpened": "2025-09-27T17:47:33.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ToonShaderPls.shader",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Shader\\ToonShaderPls.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\ToonShaderPls.shader",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Shader\\ToonShaderPls.shader",
-              "RelativeToolTip": "Assets\\Shader\\ToonShaderPls.shader",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-09-27T12:31:49.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dancer.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Dancer.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Dancer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dancer.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Dancer.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Dancer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dancer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T07:07:48.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Speecher.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Speecher.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Speecher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Speecher.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Speecher.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Speecher.cs",
               "RelativeToolTip": "Assets\\Scripts\\Speecher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,23 +104,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DancerManager.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerManager.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DancerManager.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerManager.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\DancerManager.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwBkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwE0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T07:20:58.686Z"
+              "WhenOpened": "2025-09-27T07:20:58.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +129,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Spotlight.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spotlight.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\Spotlight.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spotlight.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +141,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TriggerLight.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerLight.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\TriggerLight.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerLight.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO8SURBVEhL7ZTBTxtXEMa/93a967rYFgQDckw52EolkKIoakVysntK2t6iePkLcoh6SBpOzik55lBXHEBKlUuT28IpBxSInLhRCIgolBIRZHAKyMbYWeyYxWDv4rfTS0yVSFV7rvhJI81hvvn03owGOOZ/D2slq6urqqVaoefbz9XUWgrZShY1uwZFURDpiEBRFGNiaMIAgIJZCBQrxcDN1E1ka1lj8ttJ09/lD91fuq/e/f2uBSCfvZa1AIC3DCzVCgkmkiDoTGY6l7nOZa5LTNI547qLXPFWrdtxxx04Ojh0Tjzu7/KHJEhJckjnxJPUpN5WLQOA17nXseJB8fLL/EutdFAK1Owa/KofiqRA5jJkLoOB3b4yeGXU7bjjjzcexxe2F2JPNp6gXC\u002BnQ97QcrQvqmXKmcCr7VcGZ3ycg49nfsykZQDYaezEKvXKD89yz\u002BBVvDjdfdo603Mm3\u002BXpshgYtva2YAvb8Dgen\u002BDiQmGvMPAi/wKmZYKIBkq1Um96M\u002B3bt/dBRD7G2AUiegMgLQFAz3c9sfXd9ZjZMBHti\u002BLSl5c2PYrnRhPNX8Awvn\u002BwP96k5vzZvrNGrVGbO\u002BE\u002B4esP9H\u002B9srOCml37VRvQxq5\u002BdfWcINGRKWc2GdgNR3KmKo8qBzIALL1bgiqpOOk9CY/Lk\u002B5p65kgolmfz2e0/hIAhjAEANnybtlw4ECRFHBw4/q561kQrJnPZsDALE78beZaxkBryAWzgGqjiqA3iPph/Tev1zv6aXN82LRStRTOmbnOnJmDLWw4cDpHZkfCmXJGfV9/DwKpDnPCkZFI4MhA5jIkLh0N9J9obcvTjadaci6Jwl4BTdHU9BU9mUgleqf/nEbTaYYI9BMnHkfLoNPTiTZXG0r7JWxUNz7te4TgwuTgU0FvcPl86Dy8qheMs\u002BXuz7unon1RM9weBmPMJNA0I/YGAGQAONVxCofOIfJmHgTqTEwm\u002Bge/GESH0gEbNjYrm4ANI\u002BgLGgDGjKrBwu3hrsXSInbruxMP4w8fCS567y3ciyyWFt8KIX5eG17LHhlcjFyEcWDgwR8PIEuyBo6YRBI455AcCbIko\u002BFqjAEYAwCVq7qASAOAIznvfD6faZjGMAlShRAWk1mu9WoGALPrs7HiXvHyXG5Oq9rVwKFziHZ3O9yyGy7JBYUrYIzdTnyTuNUS/leOblFqNRUmouT81nxkJjeDYq0IAsGv\u002BtEf6Eeb3DZ25/s7ox/L/52/bxGsfPOwOcyJa60QJDQ40Aikccb1j6XHHPOBvwBFmMRhXMHP0QAAAABJRU5ErkJggg==",
@@ -168,40 +153,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "IIluminatable.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IIluminatable.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IIluminatable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IIluminatable.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IIluminatable.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IIluminatable.cs",
               "RelativeToolTip": "Assets\\Scripts\\IIluminatable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:25:03.752Z"
+              "WhenOpened": "2025-09-27T09:25:03.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BalletDancer.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\BalletDancer.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\BalletDancer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BalletDancer.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\BalletDancer.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\BalletDancer.cs",
               "RelativeToolTip": "Assets\\Scripts\\BalletDancer.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAxwEgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEgAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T07:35:31.215Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DancerSynced.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DancerSynced.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\DancerSynced.cs",
               "RelativeToolTip": "Assets\\Scripts\\DancerSynced.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,23 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GhostScript.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "RelativeToolTip": "..\\..\\..\\platformdev2\\upload3\\Unity Project\\Assets\\Scripts\\GhostScript.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAE8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:51:01.226Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\AudioManager.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "WalzDansers.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\WalzDansers.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\WalzDansers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WalzDansers.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\WalzDansers.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\WalzDansers.cs",
               "RelativeToolTip": "Assets\\Scripts\\WalzDansers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,9 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "IDancerSynced.cs",
-              "DocumentMoniker": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IDancerSynced.cs",
+              "DocumentMoniker": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IDancerSynced.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IDancerSynced.cs",
-              "ToolTip": "C:\\Users\\pepij\\Documents\\School\\GameDesign2\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IDancerSynced.cs",
+              "ToolTip": "C:\\DAEE\\2025-2026\\Semester1\\GameJam_GameDesign3\\SpotLight GameJam\\Assets\\Scripts\\IDancerSynced.cs",
               "RelativeToolTip": "Assets\\Scripts\\IDancerSynced.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DancerManager : MonoBehaviour
 {
@@ -74,7 +75,8 @@ public class DancerManager : MonoBehaviour
 
     private void GameOver()
     {
-        throw new NotImplementedException();
+        SceneManager.LoadScene(0);
+        //throw new NotImplementedException();
     }
 
     private void SpawnDancer(GameObject dancer, Vector3 startPosition, float illumantionHP, float startTime, float endTime, Color dancerColor, Color secondaryDancerColor)

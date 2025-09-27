@@ -70,7 +70,7 @@ public class BalletDancer : Dancer
     private bool IsInsideArena(Vector3 targetPosition)
     {
         bool xInsideArena = targetPosition.x < _arenaLimits.x && targetPosition.x > -_arenaLimits.x;
-        bool yInsideArena = targetPosition.z < _arenaLimits.y && targetPosition.y > -_arenaLimits.y;
+        bool yInsideArena = targetPosition.z < _arenaLimits.y && targetPosition.z > -_arenaLimits.y;
         return xInsideArena && yInsideArena;
     }
 }
